@@ -66,9 +66,7 @@ Google Hacking Database (GHDB) is a huge database of pre-made search queries ref
 | 5 | `https://case.edu` | Case Western Reserve University | No password |
 | 6 | `https://wvfa.org` | West Virginia Forestry Association | No password |
 | 7 | `https://cmu.edu` | Carnegie Mellon University | No password |
-| 8 | `https://liverpool.ac.uk` | University of Liverpool | No password |
-| 9 | `https://dartmouth.edu` | Dartmouth University | No password |
-| 10 | `https://dur.ac.uk` | Durham University | No password |
+
 
 
 ### Publicly Accessible URLs (GHDB Findings)
@@ -78,9 +76,7 @@ Google Hacking Database (GHDB) is a huge database of pre-made search queries ref
 | 5 | `https://case.edu/artsci/math/singer/publish/` | Case Western Reserve University | No password |
 | 6 | `https://www.wvfa.org/pdf/projectLearningTree/Mathematics-Fourthgrade.pdf` | New Virginia Forestry Association | No password |
 | 7 | `https://www.math.cmu.edu/users/math/mlavrov/arml/16-17/algebra-12-11-16.pdf` | Carnegie Mellon University | No password |
-| 8 | `https://www.liverpool.ac.uk/it/` | University of Liverpool | No password |
-| 9 | `https://math.dartmouth.edu/~carlp/PDF/110.pdf` | Dartmouth University | No password |
-| 10 | `https://www.maths.dur.ac.uk/papers/2025/MATH1061-2025-Calculus%201-exam.pdf` | Durham University | No password |
+
 
 ---
 
@@ -95,6 +91,19 @@ From the information gathered in the footprinting and network scanning operation
 | **3** | Technical information about HTTP revealed | **Curl** returned the headers of the HTTP response and exposed the `/wp-json/` report. | May be able to help with technology fingerprinting and more enumeration. | 🟡 **LOW** |
 | **4** | WAF technology identifiable | **Curl** returned the headers of the HTTP response and exposed the `/wp-json/` resource. | Shows understanding of how the Web application is secure. | 🟡 **LOW** |
 | **5** | Several hosts that are connected to the local network are visible | **Wafw00f** recognized that this is ModSecurity (SpiderLabs). | The knowledge of DNS information can be utilized in creating a more extensive profile of an infrastructure. | 🟠 **MEDIUM** |
-| **6** | The information of the DNS infrastructure disclosed | **DNSRecon** found DNS, mail and service-related record(s). | There is a possibility that there are devices on a network that are not known or authorized. | 🟠 **MEDIUM** |
-| **7** | Exposed sensitive information that can be accessed by anyone via GHDB | *(Findings listed in the table above)* | Possibility of cybercriminals using it for ulterior motives. | 🔴 **CRITICAL** |
 
+
+The risks listed above are a result of the footprinting and scanning activities but do not indicate vulnerabilities.
+The focus of the practical exercises was on information gathering and footprinting. These two modules did not include any validation of exploitation or vulnerability.
+The existence of information, like software version, IP address or DNS record, does not really bring to a conclusion that the system is vulnerable. Additional permission for security testing would be needed to verify if there is any known or unknown vulnerability.
+ 
+ 
+The following security changes or upgrades are recommended, based on the aforementioned activities:
+• Inspect technology information that is publicly exposed.
+• Organizations should routinely audit the information that is publicly visible for their web technologies, CMS and plugins.
+• Keep company softwares updated.
+• CMS platforms, plugins and other web technologies need to be updated and checked for current security advisories.
+• Review HTTP headers.
+• HTTP Response Headers should be inspected to see if there is any unnecessary information being shared.
+• Regularly check DNS records.
+• DNS records should be looked at periodically to make sure only services and information that are needed are public.
