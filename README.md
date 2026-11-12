@@ -86,7 +86,8 @@ The risks listed above are a result of the footprinting and scanning activities 
 The focus of the practical exercises was on information gathering and footprinting. These two modules did not include any validation of exploitation or vulnerability.
 The existence of information, like software version, IP address or DNS record, does not really bring to a conclusion that the system is vulnerable. Additional permission for security testing would be needed to verify if there is any known or unknown vulnerability.
  
- 
+
+ ## RECOMMENDATIONS
 The following security changes or upgrades are recommended, based on the aforementioned activities:
 • Inspect technology information that is publicly exposed.
 
