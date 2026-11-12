@@ -38,4 +38,19 @@ Also, I resolved the domain name to its IP address using Nslookup.  192.232.216.
 
 ## FOOTPRINTING AND SCANNING WITH GHDB
 Google Hacking Database (GHDB) is a huge database of pre-made search queries referred to as Google dorks. These are the use of normal Google search operators in inventive ways to extract sensitive data accidentally left behind by a site for example, video feed from a camera that hasn't been covered up, directories, login pages, config files and documents. The security/penetration testing community has developed GHDB.
-They are hosted on www.exploit-db.com and can be found and fixed by the researchers.
+
+### Ten Live Vulnerable Cameras
+
+| No | Link | Relevant Dork | Username / Password |
+| :--- | :--- | :--- | :--- |
+| 1 | `http://109.233.191` | `https://exploit-db.com` | No password |
+| 2 | `http://204.106.237` | `http://204.106.237` | No password |
+| 3 | `http://153.156.82` | None | No password |
+| 4 | `http://212.41.248` | None | No password |
+| 5 | `http://72.17.65` | `http://72.17.65` | No password |
+| 6 | `http://77.37.212` | None | No password |
+| 7 | `http://50.236.229` | None | No password |
+| 8 | `http://93.181.81` | `http://93.181.81` | No password |
+| 9 | `http://buffalotrace.com` | `http://buffalotrace.com` | No password |
+| 10 | `http://dy.fi` | None | No password |
+
