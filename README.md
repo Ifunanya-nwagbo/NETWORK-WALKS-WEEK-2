@@ -134,5 +134,20 @@ I finished hands-on exercises in network scanning, footprinting, and reconnaissa
 
 
 
+### 👤 Author & Project Information
+
+| Category | Details |
+| :--- | :--- |
+| **Author** | Lilian Nwagbo |
+| **Title** | Cybersecurity Professional B084 |
+| **LinkedIn** | [linkedin.com/in/ifunanya-nwagbo-mit](https://www.linkedin.com/in/ifunanya-nwagbo-mit/) |
+| **Program Name** | Cybersecurity program at Networkwalks |
+| **Week** | 02 |
+| **Repository** | GitHub |
+
+
+
+
+
 
 
