@@ -35,3 +35,7 @@ I started by using WHOIS to find the domain's name servers and access publicly a
 Furthermore, I identified the website's technologies using WhatWeb. Along with other data made public by the website, the results revealed WordPress 7.1.4 , WP Download Manager 3.3.76, jQuery 3.7.1 and Bootstrap 7.1.4.
  
 Also, I resolved the domain name to its IP address using Nslookup.  192.232.216.135 was found in the result gotten.
+
+## FOOTPRINTING AND SCANNING WITH GHDB
+Google Hacking Database (GHDB) is a huge database of pre-made search queries referred to as Google dorks. These are the use of normal Google search operators in inventive ways to extract sensitive data accidentally left behind by a site for example, video feed from a camera that hasn't been covered up, directories, login pages, config files and documents. The security/penetration testing community has developed GHDB.
+They are hosted on www.exploit-db.com and can be found and fixed by the researchers.
