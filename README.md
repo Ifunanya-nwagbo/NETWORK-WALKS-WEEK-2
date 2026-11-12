@@ -122,3 +122,15 @@ I finished hands-on exercises in network scanning, footprinting, and reconnaissa
 
 ## EVIDENCES COLLECTED
 
+<img width="1161" height="489" alt="IMG_7756" src="https://github.com/user-attachments/assets/95448eee-6dd5-4156-acdd-dda1e13b3dd0" />
+
+
+<img width="1421" height="292" alt="IMG_7757" src="https://github.com/user-attachments/assets/54e0aca8-53c3-4fa1-9eef-3672f8b28c5f" />
+
+
+<img width="1062" height="327" alt="IMG_7758" src="https://github.com/user-attachments/assets/71a9ec3a-59d8-42f3-85d2-5b66098d184b" />
+
+
+<img width="1137" height="663" alt="IMG_7763" src="https://github.com/user-attachments/assets/433349ad-29a8-4722-8631-a96b0e3c176e" />
+
+
