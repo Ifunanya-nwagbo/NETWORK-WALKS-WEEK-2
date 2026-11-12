@@ -134,3 +134,9 @@ I finished hands-on exercises in network scanning, footprinting, and reconnaissa
 <img width="1137" height="663" alt="IMG_7763" src="https://github.com/user-attachments/assets/433349ad-29a8-4722-8631-a96b0e3c176e" />
 
 
+<img width="1023" height="343" alt="IMG_7759" src="https://github.com/user-attachments/assets/b4cecbba-8b52-48a8-b159-dfb55aed313e" />
+
+
+
+
+
