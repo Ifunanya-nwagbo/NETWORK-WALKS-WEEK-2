@@ -10,7 +10,7 @@ This report includes using multiple Kali Linux tools to footprint the networkwal
 ## TOOLS INCORPORATED
 Below is a table list of each tool used in the course of my research and report.
 
-### 3) Tools Incorporated
+### Tools Incorporated
 
 Below is a list of each tool and operating system used in the course of my research and report.
 
@@ -121,13 +121,16 @@ I finished hands-on exercises in network scanning, footprinting, and reconnaissa
 <img width="1062" height="327" alt="IMG_7758" src="https://github.com/user-attachments/assets/71a9ec3a-59d8-42f3-85d2-5b66098d184b" />
 
 
+<img width="1023" height="343" alt="IMG_7759" src="https://github.com/user-attachments/assets/b4cecbba-8b52-48a8-b159-dfb55aed313e" />
+
+
+
+
 <img width="1137" height="663" alt="IMG_7763" src="https://github.com/user-attachments/assets/433349ad-29a8-4722-8631-a96b0e3c176e" />
 
 
 <img width="1296" height="796" alt="IMG_7762" src="https://github.com/user-attachments/assets/cb1c8d99-590d-4606-bfb5-ab6f15c7a6ac" />
 
-
-<img width="1023" height="343" alt="IMG_7759" src="https://github.com/user-attachments/assets/b4cecbba-8b52-48a8-b159-dfb55aed313e" />
 
 
 
