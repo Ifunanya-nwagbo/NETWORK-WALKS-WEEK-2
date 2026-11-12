@@ -26,3 +26,12 @@ Below is a list of each tool and operating system used in the course of my resea
 | **Google Hacking Database (GHDB)** | Utilized to locate sensitive, vulnerable, or publicly accessible information on the internet. |
 | **Live cam** | To capture live cameras. |
 
+## ACTIVITIES CARRIED OUT
+Footpriniting and Reconnaissance
+I used six Kali Linux tools including WHOIS, WhatWeb, Nslookup, Curl, Wafw00f, and DNSRecon, to conduct reconnaissance against the networkwalks.com domain. A different kind of information about the target was gathered using each tool.
+ 
+I started by using WHOIS to find the domain's name servers and access publicly accessible domain registration data. The findings revealed details regarding the hosting infrastructure and domain registration.
+ 
+Furthermore, I identified the website's technologies using WhatWeb. Along with other data made public by the website, the results revealed WordPress 7.1.4 , WP Download Manager 3.3.76, jQuery 3.7.1 and Bootstrap 7.1.4.
+ 
+Also, I resolved the domain name to its IP address using Nslookup.  192.232.216.135 was found in the result gotten.
