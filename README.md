@@ -39,7 +39,7 @@ Also, I resolved the domain name to its IP address using Nslookup.  192.232.216.
 ## FOOTPRINTING AND SCANNING WITH GHDB
 Google Hacking Database (GHDB) is a huge database of pre-made search queries referred to as Google dorks. These are the use of normal Google search operators in inventive ways to extract sensitive data accidentally left behind by a site for example, video feed from a camera that hasn't been covered up, directories, login pages, config files and documents. The security/penetration testing community has developed GHDB.
 
-### Ten Live Vulnerable Cameras
+### Ten Live Vulnerable Cameras:
 
 | No | Link | Relevant Dork | Username / Password |
 | :--- | :--- | :--- | :--- |
@@ -53,4 +53,21 @@ Google Hacking Database (GHDB) is a huge database of pre-made search queries ref
 | 8 | `http://93.181.81` | `http://93.181.81` | No password |
 | 9 | `http://buffalotrace.com` | `http://buffalotrace.com` | No password |
 | 10 | `http://dy.fi` | None | No password |
+
+
+### Ten Listings Containing Downloadable Mathematical PDFs
+
+| # | Link | Relevant Dork | Username / Password |
+| :--- | :--- | :--- | :--- |
+| 1 | `https://giakonda.org.uk` | Giakonda Solar School | No password |
+| 2 | `https://giakonda.org.uk` | Solar School | No password |
+| 3 | `https://giakonda.org.uk` | University of Mexico | No password |
+| 4 | `https://ochicken.net` | Index of library | No password |
+| 5 | `https://case.edu` | Case Western Reserve University | No password |
+| 6 | `https://wvfa.org` | West Virginia Forestry Association | No password |
+| 7 | `https://cmu.edu` | Carnegie Mellon University | No password |
+| 8 | `https://liverpool.ac.uk` | University of Liverpool | No password |
+| 9 | `https://dartmouth.edu` | Dartmouth University | No password |
+| 10 | `https://dur.ac.uk` | Durham University | No password |
+
 
