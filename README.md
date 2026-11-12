@@ -67,17 +67,6 @@ Google Hacking Database (GHDB) is a huge database of pre-made search queries ref
 | 6 | `https://wvfa.org` | West Virginia Forestry Association | No password |
 | 7 | `https://cmu.edu` | Carnegie Mellon University | No password |
 
-
-
-### Publicly Accessible URLs (GHDB Findings)
-
-| # | URL | Institution / Organization | Access Status |
-| :--- | :--- | :--- | :--- |
-| 5 | `https://case.edu/artsci/math/singer/publish/` | Case Western Reserve University | No password |
-| 6 | `https://www.wvfa.org/pdf/projectLearningTree/Mathematics-Fourthgrade.pdf` | New Virginia Forestry Association | No password |
-| 7 | `https://www.math.cmu.edu/users/math/mlavrov/arml/16-17/algebra-12-11-16.pdf` | Carnegie Mellon University | No password |
-
-
 ---
 
 ### Risk Analysis / Impact
