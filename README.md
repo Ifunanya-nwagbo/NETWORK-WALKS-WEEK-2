@@ -7,3 +7,5 @@ I have carried out these research on systems and devices that I own or on which 
 ## INTRODUCTION
 This report includes using multiple Kali Linux tools to footprint the networkwalks.com domain (W2-PM1) and using Google hacking database (GHDB) to research sensitive information accidentally left public by companies (W2-PM2). Information like camera feeds, login pages and so on. Together, with this two modules: both covering the scanning and the foot printing phase, I have successfully illustrated how an attacker proceeds from obtaining public data . I'm in the second week of my ongoing internship at Network walks. All commands were executed on a Windows computer running on GHDB (scanning) and in Kali Linux (footprinting). The precise command used, the outcome I saw, a screenshot as proof, and a brief explanation of the significance of the discovery from the perspective of an attacker are all included in each step below.
 
+
+
