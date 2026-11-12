@@ -1,5 +1,5 @@
 # NETWORK-WALKS-WEEK-2
-FOOTPRINTING AND RECONNAISSANCE 
+FOOTPRINTING AND RECONNAISSANCE.
 
 ## LIABILITY DISCLAIMER
 I have carried out these research on systems and devices that I own or on which I have obtained formal and legal authorization from Networkwalks. All of these resources are solely for educational and research purposes. Nothing from here was and should be used to violate the law. What you do with this information is not the responsibility of the instructor, the writers, or Networkwalks. You are accountable for every action you take. Misuse can result in a permanent record, severe fines, job loss, and criminal charges. Unauthorized access is illegal in the majority of countries, even if no harm is done.
