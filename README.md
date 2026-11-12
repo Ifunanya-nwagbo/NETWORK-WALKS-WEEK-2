@@ -7,5 +7,22 @@ I have carried out these research on systems and devices that I own or on which 
 ## INTRODUCTION
 This report includes using multiple Kali Linux tools to footprint the networkwalks.com domain (W2-PM1) and using Google hacking database (GHDB) to research sensitive information accidentally left public by companies (W2-PM2). Information like camera feeds, login pages and so on. Together, with this two modules: both covering the scanning and the foot printing phase, I have successfully illustrated how an attacker proceeds from obtaining public data . I'm in the second week of my ongoing internship at Network walks. All commands were executed on a Windows computer running on GHDB (scanning) and in Kali Linux (footprinting). The precise command used, the outcome I saw, a screenshot as proof, and a brief explanation of the significance of the discovery from the perspective of an attacker are all included in each step below.
 
+## TOOLS INCORPORATED
+Below is a table list of each tool used in the course of my research and report.
 
+### 3) Tools Incorporated
+
+Below is a list of each tool and operating system used in the course of my research and report.
+
+| Tools | Purpose |
+| :--- | :--- |
+| **Kali Linux and Windows** | Operating systems utilized in reconnaissance operations. |
+| **WhatWeb** | Web technologies for fingerprinting (server, CMS, plugins, IP). |
+| **Nslookup** | Use DNS to resolve the domain name to its IP address. |
+| **WHOIS** | Discover the owner, dates, and name servers of the domain registration. |
+| **`curl -I`** | Examine the website's HTTP response headers. |
+| **Wafw00f** | Check to see if the website is protected by a Web Application Firewall (WAF). |
+| **DNSRecon** | List every DNS record (NS, MX, SPF, TXT, SRV). |
+| **Google Hacking Database (GHDB)** | Utilized to locate sensitive, vulnerable, or publicly accessible information on the internet. |
+| **Live cam** | To capture live cameras. |
 
