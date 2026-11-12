@@ -71,3 +71,30 @@ Google Hacking Database (GHDB) is a huge database of pre-made search queries ref
 | 10 | `https://dur.ac.uk` | Durham University | No password |
 
 
+### Publicly Accessible URLs (GHDB Findings)
+
+| # | URL | Institution / Organization | Access Status |
+| :--- | :--- | :--- | :--- |
+| 5 | `https://case.edu/artsci/math/singer/publish/` | Case Western Reserve University | No password |
+| 6 | `https://www.wvfa.org/pdf/projectLearningTree/Mathematics-Fourthgrade.pdf` | New Virginia Forestry Association | No password |
+| 7 | `https://www.math.cmu.edu/users/math/mlavrov/arml/16-17/algebra-12-11-16.pdf` | Carnegie Mellon University | No password |
+| 8 | `https://www.liverpool.ac.uk/it/` | University of Liverpool | No password |
+| 9 | `https://math.dartmouth.edu/~carlp/PDF/110.pdf` | Dartmouth University | No password |
+| 10 | `https://www.maths.dur.ac.uk/papers/2025/MATH1061-2025-Calculus%201-exam.pdf` | Durham University | No password |
+
+---
+
+### Risk Analysis / Impact
+
+From the information gathered in the footprinting and network scanning operations, I came up with the following potential risks:
+
+| # | Risk | Observation | Potential Impact | Severity |
+| :--- | :--- | :--- | :--- | :--- |
+| **1** | Web technology information was exposed | **WhatWeb** found WordPress and WP Download Manager. | Vulnerable technology/version information can be used to search for software that needs to be reviewed for additional security. | 🟠 **MEDIUM** |
+| **2** | The IP address of the server is known | **Nslookup** resolved the domain to `192.232.216.135`. | Provides information about the network location of the web service. | 🟡 **LOW** |
+| **3** | Technical information about HTTP revealed | **Curl** returned the headers of the HTTP response and exposed the `/wp-json/` report. | May be able to help with technology fingerprinting and more enumeration. | 🟡 **LOW** |
+| **4** | WAF technology identifiable | **Curl** returned the headers of the HTTP response and exposed the `/wp-json/` resource. | Shows understanding of how the Web application is secure. | 🟡 **LOW** |
+| **5** | Several hosts that are connected to the local network are visible | **Wafw00f** recognized that this is ModSecurity (SpiderLabs). | The knowledge of DNS information can be utilized in creating a more extensive profile of an infrastructure. | 🟠 **MEDIUM** |
+| **6** | The information of the DNS infrastructure disclosed | **DNSRecon** found DNS, mail and service-related record(s). | There is a possibility that there are devices on a network that are not known or authorized. | 🟠 **MEDIUM** |
+| **7** | Exposed sensitive information that can be accessed by anyone via GHDB | *(Findings listed in the table above)* | Possibility of cybercriminals using it for ulterior motives. | 🔴 **CRITICAL** |
+
