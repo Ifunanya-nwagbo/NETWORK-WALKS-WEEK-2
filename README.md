@@ -113,3 +113,9 @@ The following security changes or upgrades are recommended, based on the aforeme
 • Regularly check DNS records.
 
 • DNS records should be looked at periodically to make sure only services and information that are needed are public.
+
+
+## CONCLUSION
+I finished hands-on exercises in network scanning, footprinting, and reconnaissance during the second week of my internship in cybersecurity and ethical hacking with Networkwalks.
+        I gathered data on the target domain in the footprinting exercise using six Kali Linux tools. I discovered that Wafw00f can detect a WAF, DNSRecon can offer more DNS information, WhatWeb can identify web technologies, Nslookup can resolve domain names, Curl can examine HTTP headers, and WHOIS can provide domain information.
+     I further used GHDB to find vulnerable hosts and sensitive information exposed on the internet using my LAN for the network scanning exercise.
