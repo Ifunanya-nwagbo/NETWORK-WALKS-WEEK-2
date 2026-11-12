@@ -134,6 +134,19 @@ I finished hands-on exercises in network scanning, footprinting, and reconnaissa
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 ### 👤 Author & Project Information
 
 | Category | Details |
