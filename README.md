@@ -100,10 +100,16 @@ The existence of information, like software version, IP address or DNS record, d
  
 The following security changes or upgrades are recommended, based on the aforementioned activities:
 • Inspect technology information that is publicly exposed.
+
 • Organizations should routinely audit the information that is publicly visible for their web technologies, CMS and plugins.
+
 • Keep company softwares updated.
+
 • CMS platforms, plugins and other web technologies need to be updated and checked for current security advisories.
 • Review HTTP headers.
+
 • HTTP Response Headers should be inspected to see if there is any unnecessary information being shared.
+
 • Regularly check DNS records.
+
 • DNS records should be looked at periodically to make sure only services and information that are needed are public.
